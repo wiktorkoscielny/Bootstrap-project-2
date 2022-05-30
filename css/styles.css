@@ -865,6 +865,59 @@ background: linear-gradient(90deg, rgba(242,242,242,1) 0%, rgba(158,158,158,1) 1
     min-width: 1px;
   }
 }
-/* *********** Article 5 *********** */
-
+/* *********** Gallery *********** */
+#gallery-container {
+  background-color: #000000;
+}
+#gallery-wrapper-1 {
+padding-top: 3rem;
+}
+#gallery-wrapper-2 {
+padding-bottom: 5rem;
+}
+#img-gallery {
+  padding-top: 2rem;
+}
 /* *********** Footer *********** */
+.footer-link {
+  font-family: myfont-regular;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.footer-link:hover {
+  color: #2196f3;
+}
+.footer-text {
+  font-family: myfont-regular;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.footer-text:hover {
+  color: #f2f2f2;
+}
+.footer-describtion {
+  font-family: myfont-regular;
+  color: #f2f2f2;
+}
+#footer-h5 {
+  font-family: myfont;
+  color: #2196f3;
+}
+.footer-section {
+  padding-top: 5%;
+}
+
+/* ********** Map ********* */
+.map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-3 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
